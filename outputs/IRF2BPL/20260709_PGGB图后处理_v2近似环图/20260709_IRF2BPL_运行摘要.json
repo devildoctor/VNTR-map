@@ -1,0 +1,23 @@
+{
+  "input": "测试数据\\IRF2BPL.HPRC.fa.3034e58.11fba48.904d69e.smooth.final.gfa",
+  "motifs": [
+    "CAG",
+    "GCC",
+    "GCG",
+    "GGC",
+    "CAA"
+  ],
+  "max_edits": 1,
+  "segments": 87,
+  "links": 127,
+  "paths": 47,
+  "token_nodes": 6,
+  "total_tokens": 43496,
+  "total_runs": 35140,
+  "outputs": {
+    "loop_gfa": "outputs\\IRF2BPL\\20260709_PGGB图后处理_v2近似环图\\20260709_IRF2BPL_VNTR近似重复单元环图.gfa",
+    "run_tsv": "outputs\\IRF2BPL\\20260709_PGGB图后处理_v2近似环图\\20260709_IRF2BPL_路径环循环次数.tsv",
+    "path_tsv": "outputs\\IRF2BPL\\20260709_PGGB图后处理_v2近似环图\\20260709_IRF2BPL_路径环结构摘要.tsv",
+    "png": "outputs\\IRF2BPL\\20260709_PGGB图后处理_v2近似环图\\20260709_IRF2BPL_路径环结构可视化.png"
+  }
+}
