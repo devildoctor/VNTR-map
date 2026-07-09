@@ -1,0 +1,24 @@
+{
+  "input": "测试数据\\IRF2BPL.HPRC.fa.3034e58.11fba48.904d69e.smooth.final.gfa",
+  "motifs": [
+    "CAG",
+    "GCC",
+    "GCG",
+    "GGC",
+    "CAA"
+  ],
+  "segments": 87,
+  "links": 127,
+  "paths": 47,
+  "token_nodes": 165,
+  "token_edges": 430,
+  "outputs": {
+    "annotated_gfa": "outputs\\IRF2BPL\\20260709_PGGB图后处理\\20260709_IRF2BPL_PGGB节点统计增强.gfa",
+    "token_gfa": "outputs\\IRF2BPL\\20260709_PGGB图后处理\\20260709_IRF2BPL_VNTR重复单元解释图.gfa",
+    "node_tsv": "outputs\\IRF2BPL\\20260709_PGGB图后处理\\20260709_IRF2BPL_节点统计.tsv",
+    "edge_tsv": "outputs\\IRF2BPL\\20260709_PGGB图后处理\\20260709_IRF2BPL_边统计.tsv",
+    "path_tsv": "outputs\\IRF2BPL\\20260709_PGGB图后处理\\20260709_IRF2BPL_路径重复单元统计.tsv",
+    "token_tsv": "outputs\\IRF2BPL\\20260709_PGGB图后处理\\20260709_IRF2BPL_路径token明细.tsv",
+    "html": "outputs\\IRF2BPL\\20260709_PGGB图后处理\\20260709_IRF2BPL_VNTR重复单元图可视化.html"
+  }
+}
