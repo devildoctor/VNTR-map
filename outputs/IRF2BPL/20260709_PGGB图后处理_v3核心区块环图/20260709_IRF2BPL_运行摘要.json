@@ -1,0 +1,20 @@
+{
+  "input": "测试数据\\IRF2BPL.HPRC.fa.3034e58.11fba48.904d69e.smooth.final.gfa",
+  "motifs": [
+    "CAG",
+    "GCC",
+    "GCG",
+    "GGC",
+    "CAA"
+  ],
+  "max_mismatches": 1,
+  "bridge_bp": 18,
+  "min_repeats": 20,
+  "paths": 47,
+  "outputs": {
+    "gfa": "outputs\\IRF2BPL\\20260709_PGGB图后处理_v3核心区块环图\\20260709_IRF2BPL_VNTR核心区块环图.gfa",
+    "png": "outputs\\IRF2BPL\\20260709_PGGB图后处理_v3核心区块环图\\20260709_IRF2BPL_VNTR核心区块环图可视化.png",
+    "summary_tsv": "outputs\\IRF2BPL\\20260709_PGGB图后处理_v3核心区块环图\\20260709_IRF2BPL_路径核心VNTR区块统计.tsv",
+    "detail_tsv": "outputs\\IRF2BPL\\20260709_PGGB图后处理_v3核心区块环图\\20260709_IRF2BPL_核心区块重复单元明细.tsv"
+  }
+}
