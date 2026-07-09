@@ -1,0 +1,10 @@
+CAG	a	640
+GCG	b	356
+GCC	c	225
+CAA	d	176
+GCA	e	88
+TCG	f	45
+GCT	g	45
+AAG	h	45
+GAA	i	29
+GAG	j	16

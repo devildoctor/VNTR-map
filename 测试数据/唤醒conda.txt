@@ -1,0 +1,2 @@
+~/miniconda3/bin/conda init bash
+source ~/.bashrc

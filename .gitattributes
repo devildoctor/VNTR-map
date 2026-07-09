@@ -1,0 +1,9 @@
+*.fa text eol=lf
+*.fasta text eol=lf
+*.gfa text eol=lf
+*.json text eol=lf
+*.og text eol=lf
+*.py text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+*.png binary
