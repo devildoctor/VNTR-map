@@ -1,0 +1,8 @@
+group	canonical_motif	observed_motif	type	anchor_path_count	anchor_units
+CAG_like	CAG	CAA	variant	47	276
+CAG_like	CAG	CAG	exact	47	847
+GCC_like	GCC	GCA	variant	46	92
+GCC_like	GCC	GCC	exact	47	664
+GCC_like	GCC	GCT	variant	47	91
+GCC_like	GCG	GCG	exact	47	419
+GCC_like	GCG	GTG	variant	47	47

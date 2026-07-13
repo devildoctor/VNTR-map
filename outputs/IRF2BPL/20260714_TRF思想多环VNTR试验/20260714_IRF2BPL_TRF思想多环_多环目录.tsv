@@ -1,0 +1,4 @@
+loop_id	group	path_support	selected_period	consensus_motif	copy_min	copy_median	copy_max	variant_min	variant_max	inserted_bp_min	inserted_bp_max	mean_identity	mean_indel_rate	mean_tuple_support
+L1	GCC_like	47	3	GCG	11	15.0	15	0	2	0	0	0.8452	0.0000	0.8238
+L2	CAG_like	47	3	CAG	19	24.0	32	5	7	0	0	0.9196	0.0000	0.7597
+L3	GCC_like	47	3	GCC	14	17.0	21	5	7	7	7	0.8257	0.1205	0.6416
