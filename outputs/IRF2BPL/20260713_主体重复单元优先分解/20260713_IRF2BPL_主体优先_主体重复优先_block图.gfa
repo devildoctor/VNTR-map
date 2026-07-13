@@ -1,0 +1,565 @@
+H	VN:Z:1.0	TS:Z:primary_repeat_first_vntr
+S	seq1_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq1_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq1_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq1_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq1_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq1_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:25	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:19	VA:Z:-	ND:Z:16,18,21,22,24,25,26,27,29,30,32,34,35,37,39,41,42
+S	seq1_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq1_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq1_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq1_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq1_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq1_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq1_1.0_B1_complex	+	seq1_1.0_B2_primary	+	0M
+L	seq1_1.0_B2_primary	+	seq1_1.0_B3_primary	+	0M
+L	seq1_1.0_B3_primary	+	seq1_1.0_B4_complex	+	0M
+L	seq1_1.0_B4_complex	+	seq1_1.0_B5_interrupted	+	0M
+L	seq1_1.0_B5_interrupted	+	seq1_1.0_B6_complex	+	0M
+S	seq2_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq2_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq2_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq2_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq2_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq2_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq2_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq2_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq2_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq2_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq2_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq2_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq2_1.0_B1_complex	+	seq2_1.0_B2_primary	+	0M
+L	seq2_1.0_B2_primary	+	seq2_1.0_B3_primary	+	0M
+L	seq2_1.0_B3_primary	+	seq2_1.0_B4_complex	+	0M
+L	seq2_1.0_B4_complex	+	seq2_1.0_B5_interrupted	+	0M
+L	seq2_1.0_B5_interrupted	+	seq2_1.0_B6_complex	+	0M
+S	seq1_65.5_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq1_65.5	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq1_65.5_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq1_65.5	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq1_65.5_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq1_65.5	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq1_65.5_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq1_65.5	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq1_65.5_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq1_65.5	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:11;GCG:1;GCT:2	VA:Z:-	ND:Z:42,46,47,48,50,51
+S	seq1_65.5_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq1_65.5	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq1_65.5_B1_complex	+	seq1_65.5_B2_primary	+	0M
+L	seq1_65.5_B2_primary	+	seq1_65.5_B3_primary	+	0M
+L	seq1_65.5_B3_primary	+	seq1_65.5_B4_complex	+	0M
+L	seq1_65.5_B4_complex	+	seq1_65.5_B5_interrupted	+	0M
+L	seq1_65.5_B5_interrupted	+	seq1_65.5_B6_complex	+	0M
+S	seq2_161.5_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq2_161.5	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq2_161.5_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq2_161.5	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq2_161.5_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq2_161.5	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq2_161.5_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq2_161.5	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq2_161.5_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq2_161.5	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq2_161.5_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq2_161.5	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq2_161.5_B1_complex	+	seq2_161.5_B2_primary	+	0M
+L	seq2_161.5_B2_primary	+	seq2_161.5_B3_primary	+	0M
+L	seq2_161.5_B3_primary	+	seq2_161.5_B4_complex	+	0M
+L	seq2_161.5_B4_complex	+	seq2_161.5_B5_interrupted	+	0M
+L	seq2_161.5_B5_interrupted	+	seq2_161.5_B6_complex	+	0M
+S	seq3_107.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq3_107.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq3_107.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq3_107.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq3_107.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq3_107.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq3_107.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq3_107.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq3_107.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq3_107.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq3_107.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq3_107.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq3_107.0_B1_complex	+	seq3_107.0_B2_primary	+	0M
+L	seq3_107.0_B2_primary	+	seq3_107.0_B3_primary	+	0M
+L	seq3_107.0_B3_primary	+	seq3_107.0_B4_complex	+	0M
+L	seq3_107.0_B4_complex	+	seq3_107.0_B5_interrupted	+	0M
+L	seq3_107.0_B5_interrupted	+	seq3_107.0_B6_complex	+	0M
+S	seq4_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq4_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq4_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq4_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq4_1.0_B3_primary	CAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq4_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:5;CAG:19	VA:Z:-	ND:Z:16,17,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq4_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq4_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq4_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq4_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:14	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:9;GCG:1;GCT:3	VA:Z:-	ND:Z:42,47,48,49,51
+S	seq4_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq4_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq4_1.0_B1_complex	+	seq4_1.0_B2_primary	+	0M
+L	seq4_1.0_B2_primary	+	seq4_1.0_B3_primary	+	0M
+L	seq4_1.0_B3_primary	+	seq4_1.0_B4_complex	+	0M
+L	seq4_1.0_B4_complex	+	seq4_1.0_B5_interrupted	+	0M
+L	seq4_1.0_B5_interrupted	+	seq4_1.0_B6_complex	+	0M
+S	seq5_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq5_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq5_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq5_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq5_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq5_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq5_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq5_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq5_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq5_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq5_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq5_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq5_1.0_B1_complex	+	seq5_1.0_B2_primary	+	0M
+L	seq5_1.0_B2_primary	+	seq5_1.0_B3_primary	+	0M
+L	seq5_1.0_B3_primary	+	seq5_1.0_B4_complex	+	0M
+L	seq5_1.0_B4_complex	+	seq5_1.0_B5_interrupted	+	0M
+L	seq5_1.0_B5_interrupted	+	seq5_1.0_B6_complex	+	0M
+S	seq6_32.5_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq6_32.5	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq6_32.5_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq6_32.5	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq6_32.5_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq6_32.5	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:25	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:19	VA:Z:-	ND:Z:16,18,21,22,24,25,26,27,29,30,32,34,35,37,39,41,42
+S	seq6_32.5_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq6_32.5	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq6_32.5_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq6_32.5	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq6_32.5_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq6_32.5	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq6_32.5_B1_complex	+	seq6_32.5_B2_primary	+	0M
+L	seq6_32.5_B2_primary	+	seq6_32.5_B3_primary	+	0M
+L	seq6_32.5_B3_primary	+	seq6_32.5_B4_complex	+	0M
+L	seq6_32.5_B4_complex	+	seq6_32.5_B5_interrupted	+	0M
+L	seq6_32.5_B5_interrupted	+	seq6_32.5_B6_complex	+	0M
+S	seq7_0.5_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq7_0.5	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq7_0.5_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq7_0.5	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq7_0.5_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq7_0.5	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq7_0.5_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq7_0.5	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq7_0.5_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq7_0.5	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq7_0.5_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq7_0.5	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq7_0.5_B1_complex	+	seq7_0.5_B2_primary	+	0M
+L	seq7_0.5_B2_primary	+	seq7_0.5_B3_primary	+	0M
+L	seq7_0.5_B3_primary	+	seq7_0.5_B4_complex	+	0M
+L	seq7_0.5_B4_complex	+	seq7_0.5_B5_interrupted	+	0M
+L	seq7_0.5_B5_interrupted	+	seq7_0.5_B6_complex	+	0M
+S	seq8_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq8_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq8_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq8_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq8_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq8_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:32	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:26	VA:Z:-	ND:Z:16,18,19,20,21,22,24,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq8_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq8_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq8_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq8_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq8_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq8_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq8_1.0_B1_complex	+	seq8_1.0_B2_primary	+	0M
+L	seq8_1.0_B2_primary	+	seq8_1.0_B3_primary	+	0M
+L	seq8_1.0_B3_primary	+	seq8_1.0_B4_complex	+	0M
+L	seq8_1.0_B4_complex	+	seq8_1.0_B5_interrupted	+	0M
+L	seq8_1.0_B5_interrupted	+	seq8_1.0_B6_complex	+	0M
+S	seq9_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq9_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq9_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq9_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq9_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq9_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:22	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:16	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,39,40,42
+S	seq9_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq9_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq9_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq9_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:11;GCG:1;GCT:2	VA:Z:-	ND:Z:42,46,47,48,50,51
+S	seq9_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq9_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq9_1.0_B1_complex	+	seq9_1.0_B2_primary	+	0M
+L	seq9_1.0_B2_primary	+	seq9_1.0_B3_primary	+	0M
+L	seq9_1.0_B3_primary	+	seq9_1.0_B4_complex	+	0M
+L	seq9_1.0_B4_complex	+	seq9_1.0_B5_interrupted	+	0M
+L	seq9_1.0_B5_interrupted	+	seq9_1.0_B6_complex	+	0M
+S	seq10_14.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq10_14.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq10_14.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq10_14.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq10_14.0_B3_primary	CAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq10_14.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:5;CAG:18	VA:Z:-	ND:Z:16,17,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq10_14.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq10_14.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq10_14.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq10_14.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:14	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:9;GCG:1;GCT:3	VA:Z:-	ND:Z:42,47,48,49,51
+S	seq10_14.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq10_14.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq10_14.0_B1_complex	+	seq10_14.0_B2_primary	+	0M
+L	seq10_14.0_B2_primary	+	seq10_14.0_B3_primary	+	0M
+L	seq10_14.0_B3_primary	+	seq10_14.0_B4_complex	+	0M
+L	seq10_14.0_B4_complex	+	seq10_14.0_B5_interrupted	+	0M
+L	seq10_14.0_B5_interrupted	+	seq10_14.0_B6_complex	+	0M
+S	seq11_3.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq11_3.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq11_3.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq11_3.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq11_3.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq11_3.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq11_3.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq11_3.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq11_3.0_B5_interrupted	GCTGCCGCCGCCGCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq11_3.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:19	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:13;GCG:1;GCT:4	VA:Z:-	ND:Z:42,43,44,45,46,47,48,49,51
+S	seq11_3.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq11_3.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq11_3.0_B1_complex	+	seq11_3.0_B2_primary	+	0M
+L	seq11_3.0_B2_primary	+	seq11_3.0_B3_primary	+	0M
+L	seq11_3.0_B3_primary	+	seq11_3.0_B4_complex	+	0M
+L	seq11_3.0_B4_complex	+	seq11_3.0_B5_interrupted	+	0M
+L	seq11_3.0_B5_interrupted	+	seq11_3.0_B6_complex	+	0M
+S	seq12_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq12_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq12_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq12_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq12_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq12_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq12_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq12_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq12_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq12_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq12_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq12_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq12_1.0_B1_complex	+	seq12_1.0_B2_primary	+	0M
+L	seq12_1.0_B2_primary	+	seq12_1.0_B3_primary	+	0M
+L	seq12_1.0_B3_primary	+	seq12_1.0_B4_complex	+	0M
+L	seq12_1.0_B4_complex	+	seq12_1.0_B5_interrupted	+	0M
+L	seq12_1.0_B5_interrupted	+	seq12_1.0_B6_complex	+	0M
+S	seq13_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq13_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq13_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq13_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq13_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq13_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq13_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq13_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq13_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq13_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:16	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:12;GCG:1;GCT:2	VA:Z:-	ND:Z:42,44,46,47,48,50,51
+S	seq13_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq13_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq13_1.0_B1_complex	+	seq13_1.0_B2_primary	+	0M
+L	seq13_1.0_B2_primary	+	seq13_1.0_B3_primary	+	0M
+L	seq13_1.0_B3_primary	+	seq13_1.0_B4_complex	+	0M
+L	seq13_1.0_B4_complex	+	seq13_1.0_B5_interrupted	+	0M
+L	seq13_1.0_B5_interrupted	+	seq13_1.0_B6_complex	+	0M
+S	seq14_4.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq14_4.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq14_4.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq14_4.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq14_4.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq14_4.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:5;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,39,41,42
+S	seq14_4.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq14_4.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq14_4.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq14_4.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq14_4.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq14_4.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq14_4.0_B1_complex	+	seq14_4.0_B2_primary	+	0M
+L	seq14_4.0_B2_primary	+	seq14_4.0_B3_primary	+	0M
+L	seq14_4.0_B3_primary	+	seq14_4.0_B4_complex	+	0M
+L	seq14_4.0_B4_complex	+	seq14_4.0_B5_interrupted	+	0M
+L	seq14_4.0_B5_interrupted	+	seq14_4.0_B6_complex	+	0M
+S	seq15_1.0_B1_complex	AGGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq15_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,9,10,12
+S	seq15_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq15_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq15_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq15_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq15_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq15_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq15_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq15_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq15_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq15_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq15_1.0_B1_complex	+	seq15_1.0_B2_primary	+	0M
+L	seq15_1.0_B2_primary	+	seq15_1.0_B3_primary	+	0M
+L	seq15_1.0_B3_primary	+	seq15_1.0_B4_complex	+	0M
+L	seq15_1.0_B4_complex	+	seq15_1.0_B5_interrupted	+	0M
+L	seq15_1.0_B5_interrupted	+	seq15_1.0_B6_complex	+	0M
+S	seq16_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq16_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq16_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq16_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq16_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq16_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:28	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:22	VA:Z:-	ND:Z:16,18,20,21,22,24,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq16_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq16_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq16_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq16_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:17	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:12;GCG:1;GCT:3	VA:Z:-	ND:Z:42,43,44,46,47,48,49,51
+S	seq16_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq16_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq16_1.0_B1_complex	+	seq16_1.0_B2_primary	+	0M
+L	seq16_1.0_B2_primary	+	seq16_1.0_B3_primary	+	0M
+L	seq16_1.0_B3_primary	+	seq16_1.0_B4_complex	+	0M
+L	seq16_1.0_B4_complex	+	seq16_1.0_B5_interrupted	+	0M
+L	seq16_1.0_B5_interrupted	+	seq16_1.0_B6_complex	+	0M
+S	seq17_3.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq17_3.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq17_3.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq17_3.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq17_3.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq17_3.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq17_3.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq17_3.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq17_3.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq17_3.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:12	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:7;GCG:1;GCT:3	VA:Z:-	ND:Z:42,48,49,51
+S	seq17_3.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq17_3.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq17_3.0_B1_complex	+	seq17_3.0_B2_primary	+	0M
+L	seq17_3.0_B2_primary	+	seq17_3.0_B3_primary	+	0M
+L	seq17_3.0_B3_primary	+	seq17_3.0_B4_complex	+	0M
+L	seq17_3.0_B4_complex	+	seq17_3.0_B5_interrupted	+	0M
+L	seq17_3.0_B5_interrupted	+	seq17_3.0_B6_complex	+	0M
+S	seq18_3.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq18_3.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq18_3.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq18_3.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq18_3.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq18_3.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq18_3.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq18_3.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq18_3.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq18_3.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq18_3.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq18_3.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq18_3.0_B1_complex	+	seq18_3.0_B2_primary	+	0M
+L	seq18_3.0_B2_primary	+	seq18_3.0_B3_primary	+	0M
+L	seq18_3.0_B3_primary	+	seq18_3.0_B4_complex	+	0M
+L	seq18_3.0_B4_complex	+	seq18_3.0_B5_interrupted	+	0M
+L	seq18_3.0_B5_interrupted	+	seq18_3.0_B6_complex	+	0M
+S	seq19_13.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq19_13.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq19_13.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq19_13.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq19_13.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq19_13.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:21	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:15	VA:Z:-	ND:Z:16,18,26,27,29,34,35,37,38,39,41,42
+S	seq19_13.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq19_13.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq19_13.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq19_13.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq19_13.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq19_13.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq19_13.0_B1_complex	+	seq19_13.0_B2_primary	+	0M
+L	seq19_13.0_B2_primary	+	seq19_13.0_B3_primary	+	0M
+L	seq19_13.0_B3_primary	+	seq19_13.0_B4_complex	+	0M
+L	seq19_13.0_B4_complex	+	seq19_13.0_B5_interrupted	+	0M
+L	seq19_13.0_B5_interrupted	+	seq19_13.0_B6_complex	+	0M
+S	seq20_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq20_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq20_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq20_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq20_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq20_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:5;CAG:19	VA:Z:-	ND:Z:16,18,21,22,24,25,26,27,29,34,35,37,39,41,42
+S	seq20_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq20_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq20_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq20_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq20_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq20_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq20_1.0_B1_complex	+	seq20_1.0_B2_primary	+	0M
+L	seq20_1.0_B2_primary	+	seq20_1.0_B3_primary	+	0M
+L	seq20_1.0_B3_primary	+	seq20_1.0_B4_complex	+	0M
+L	seq20_1.0_B4_complex	+	seq20_1.0_B5_interrupted	+	0M
+L	seq20_1.0_B5_interrupted	+	seq20_1.0_B6_complex	+	0M
+S	seq21_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq21_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq21_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq21_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq21_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq21_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:22	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:16	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,36,37,39,41,42
+S	seq21_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq21_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq21_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq21_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq21_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq21_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq21_1.0_B1_complex	+	seq21_1.0_B2_primary	+	0M
+L	seq21_1.0_B2_primary	+	seq21_1.0_B3_primary	+	0M
+L	seq21_1.0_B3_primary	+	seq21_1.0_B4_complex	+	0M
+L	seq21_1.0_B4_complex	+	seq21_1.0_B5_interrupted	+	0M
+L	seq21_1.0_B5_interrupted	+	seq21_1.0_B6_complex	+	0M
+S	seq22_2.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq22_2.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq22_2.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq22_2.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq22_2.0_B3_primary	CAACAGCAACAGCAACAGCAACAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq22_2.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:7;CAG:17	VA:Z:-	ND:Z:16,18,21,23,24,25,26,27,29,34,36,37,39,41,42
+S	seq22_2.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq22_2.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq22_2.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq22_2.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq22_2.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq22_2.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq22_2.0_B1_complex	+	seq22_2.0_B2_primary	+	0M
+L	seq22_2.0_B2_primary	+	seq22_2.0_B3_primary	+	0M
+L	seq22_2.0_B3_primary	+	seq22_2.0_B4_complex	+	0M
+L	seq22_2.0_B4_complex	+	seq22_2.0_B5_interrupted	+	0M
+L	seq22_2.0_B5_interrupted	+	seq22_2.0_B6_complex	+	0M
+S	seq23_12.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq23_12.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq23_12.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq23_12.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq23_12.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq23_12.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,21,22,24,25,26,27,29,34,36,37,39,41,42
+S	seq23_12.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq23_12.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq23_12.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq23_12.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq23_12.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq23_12.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq23_12.0_B1_complex	+	seq23_12.0_B2_primary	+	0M
+L	seq23_12.0_B2_primary	+	seq23_12.0_B3_primary	+	0M
+L	seq23_12.0_B3_primary	+	seq23_12.0_B4_complex	+	0M
+L	seq23_12.0_B4_complex	+	seq23_12.0_B5_interrupted	+	0M
+L	seq23_12.0_B5_interrupted	+	seq23_12.0_B6_complex	+	0M
+S	seq24_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq24_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq24_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq24_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq24_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq24_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq24_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq24_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq24_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq24_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq24_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq24_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq24_1.0_B1_complex	+	seq24_1.0_B2_primary	+	0M
+L	seq24_1.0_B2_primary	+	seq24_1.0_B3_primary	+	0M
+L	seq24_1.0_B3_primary	+	seq24_1.0_B4_complex	+	0M
+L	seq24_1.0_B4_complex	+	seq24_1.0_B5_interrupted	+	0M
+L	seq24_1.0_B5_interrupted	+	seq24_1.0_B6_complex	+	0M
+S	seq25_2.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq25_2.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq25_2.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq25_2.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq25_2.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq25_2.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq25_2.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq25_2.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq25_2.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq25_2.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq25_2.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq25_2.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq25_2.0_B1_complex	+	seq25_2.0_B2_primary	+	0M
+L	seq25_2.0_B2_primary	+	seq25_2.0_B3_primary	+	0M
+L	seq25_2.0_B3_primary	+	seq25_2.0_B4_complex	+	0M
+L	seq25_2.0_B4_complex	+	seq25_2.0_B5_interrupted	+	0M
+L	seq25_2.0_B5_interrupted	+	seq25_2.0_B6_complex	+	0M
+S	seq26_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq26_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq26_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq26_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq26_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq26_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:26	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:20	VA:Z:-	ND:Z:16,18,21,22,24,25,26,27,29,30,32,33,34,35,37,39,41,42
+S	seq26_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq26_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq26_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq26_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq26_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq26_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq26_1.0_B1_complex	+	seq26_1.0_B2_primary	+	0M
+L	seq26_1.0_B2_primary	+	seq26_1.0_B3_primary	+	0M
+L	seq26_1.0_B3_primary	+	seq26_1.0_B4_complex	+	0M
+L	seq26_1.0_B4_complex	+	seq26_1.0_B5_interrupted	+	0M
+L	seq26_1.0_B5_interrupted	+	seq26_1.0_B6_complex	+	0M
+S	seq27_3.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq27_3.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq27_3.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq27_3.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq27_3.0_B3_primary	CAACAGCAACAGCAACAGCAACAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq27_3.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:7;CAG:16	VA:Z:-	ND:Z:16,18,26,27,28,30,31,33,34,35,37,38,39,41,42
+S	seq27_3.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq27_3.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq27_3.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq27_3.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq27_3.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq27_3.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq27_3.0_B1_complex	+	seq27_3.0_B2_primary	+	0M
+L	seq27_3.0_B2_primary	+	seq27_3.0_B3_primary	+	0M
+L	seq27_3.0_B3_primary	+	seq27_3.0_B4_complex	+	0M
+L	seq27_3.0_B4_complex	+	seq27_3.0_B5_interrupted	+	0M
+L	seq27_3.0_B5_interrupted	+	seq27_3.0_B6_complex	+	0M
+S	seq28_3.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq28_3.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq28_3.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq28_3.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq28_3.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq28_3.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq28_3.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq28_3.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq28_3.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq28_3.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:11;GCG:1;GCT:2	VA:Z:-	ND:Z:42,46,47,48,50,51
+S	seq28_3.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq28_3.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq28_3.0_B1_complex	+	seq28_3.0_B2_primary	+	0M
+L	seq28_3.0_B2_primary	+	seq28_3.0_B3_primary	+	0M
+L	seq28_3.0_B3_primary	+	seq28_3.0_B4_complex	+	0M
+L	seq28_3.0_B4_complex	+	seq28_3.0_B5_interrupted	+	0M
+L	seq28_3.0_B5_interrupted	+	seq28_3.0_B6_complex	+	0M
+S	seq29_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq29_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq29_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq29_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq29_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq29_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:25	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:19	VA:Z:-	ND:Z:16,18,21,22,24,25,26,27,29,30,32,34,35,37,39,41,42
+S	seq29_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq29_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq29_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq29_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq29_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq29_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq29_1.0_B1_complex	+	seq29_1.0_B2_primary	+	0M
+L	seq29_1.0_B2_primary	+	seq29_1.0_B3_primary	+	0M
+L	seq29_1.0_B3_primary	+	seq29_1.0_B4_complex	+	0M
+L	seq29_1.0_B4_complex	+	seq29_1.0_B5_interrupted	+	0M
+L	seq29_1.0_B5_interrupted	+	seq29_1.0_B6_complex	+	0M
+S	seq30_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq30_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq30_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq30_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq30_1.0_B3_primary	CAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq30_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:25	IV:i:0	SW:i:0	MT:Z:CAA:5;CAG:20	VA:Z:-	ND:Z:16,17,21,22,24,25,26,27,29,34,35,37,38,39,41,42
+S	seq30_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq30_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq30_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq30_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:14	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:9;GCG:1;GCT:3	VA:Z:-	ND:Z:42,47,48,49,51
+S	seq30_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq30_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq30_1.0_B1_complex	+	seq30_1.0_B2_primary	+	0M
+L	seq30_1.0_B2_primary	+	seq30_1.0_B3_primary	+	0M
+L	seq30_1.0_B3_primary	+	seq30_1.0_B4_complex	+	0M
+L	seq30_1.0_B4_complex	+	seq30_1.0_B5_interrupted	+	0M
+L	seq30_1.0_B5_interrupted	+	seq30_1.0_B6_complex	+	0M
+S	seq31_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq31_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq31_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq31_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq31_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq31_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:19	IV:i:0	SW:i:0	MT:Z:CAA:5;CAG:14	VA:Z:-	ND:Z:16,18,27,29,34,35,37,39,41,42
+S	seq31_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq31_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq31_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq31_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq31_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq31_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq31_1.0_B1_complex	+	seq31_1.0_B2_primary	+	0M
+L	seq31_1.0_B2_primary	+	seq31_1.0_B3_primary	+	0M
+L	seq31_1.0_B3_primary	+	seq31_1.0_B4_complex	+	0M
+L	seq31_1.0_B4_complex	+	seq31_1.0_B5_interrupted	+	0M
+L	seq31_1.0_B5_interrupted	+	seq31_1.0_B6_complex	+	0M
+S	seq32_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq32_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq32_1.0_B2_primary	GCGGCGGCGGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq32_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:11	IV:i:0	SW:i:0	MT:Z:GCC:5;GCG:6	VA:Z:-	ND:Z:14,16
+S	seq32_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq32_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq32_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq32_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq32_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq32_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq32_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq32_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq32_1.0_B1_complex	+	seq32_1.0_B2_primary	+	0M
+L	seq32_1.0_B2_primary	+	seq32_1.0_B3_primary	+	0M
+L	seq32_1.0_B3_primary	+	seq32_1.0_B4_complex	+	0M
+L	seq32_1.0_B4_complex	+	seq32_1.0_B5_interrupted	+	0M
+L	seq32_1.0_B5_interrupted	+	seq32_1.0_B6_complex	+	0M
+S	seq33_2.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq33_2.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq33_2.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq33_2.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq33_2.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq33_2.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:27	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:21	VA:Z:-	ND:Z:16,18,20,21,22,24,25,26,27,29,30,32,33,34,35,37,39,41,42
+S	seq33_2.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq33_2.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq33_2.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq33_2.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq33_2.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq33_2.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq33_2.0_B1_complex	+	seq33_2.0_B2_primary	+	0M
+L	seq33_2.0_B2_primary	+	seq33_2.0_B3_primary	+	0M
+L	seq33_2.0_B3_primary	+	seq33_2.0_B4_complex	+	0M
+L	seq33_2.0_B4_complex	+	seq33_2.0_B5_interrupted	+	0M
+L	seq33_2.0_B5_interrupted	+	seq33_2.0_B6_complex	+	0M
+S	seq34_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq34_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq34_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq34_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq34_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq34_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:25	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:19	VA:Z:-	ND:Z:16,18,21,22,24,25,26,27,29,30,32,34,35,37,39,41,42
+S	seq34_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq34_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq34_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq34_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:16	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:11;GCG:1;GCT:3	VA:Z:-	ND:Z:42,44,46,47,48,49,51
+S	seq34_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq34_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq34_1.0_B1_complex	+	seq34_1.0_B2_primary	+	0M
+L	seq34_1.0_B2_primary	+	seq34_1.0_B3_primary	+	0M
+L	seq34_1.0_B3_primary	+	seq34_1.0_B4_complex	+	0M
+L	seq34_1.0_B4_complex	+	seq34_1.0_B5_interrupted	+	0M
+L	seq34_1.0_B5_interrupted	+	seq34_1.0_B6_complex	+	0M
+S	seq35_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq35_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq35_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq35_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq35_1.0_B3_primary	CAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq35_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:25	IV:i:0	SW:i:0	MT:Z:CAA:5;CAG:20	VA:Z:-	ND:Z:16,17,21,22,24,25,26,27,29,30,32,34,35,37,39,41,42
+S	seq35_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq35_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq35_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq35_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq35_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq35_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq35_1.0_B1_complex	+	seq35_1.0_B2_primary	+	0M
+L	seq35_1.0_B2_primary	+	seq35_1.0_B3_primary	+	0M
+L	seq35_1.0_B3_primary	+	seq35_1.0_B4_complex	+	0M
+L	seq35_1.0_B4_complex	+	seq35_1.0_B5_interrupted	+	0M
+L	seq35_1.0_B5_interrupted	+	seq35_1.0_B6_complex	+	0M
+S	seq36_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq36_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq36_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq36_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq36_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq36_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq36_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq36_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq36_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq36_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq36_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq36_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq36_1.0_B1_complex	+	seq36_1.0_B2_primary	+	0M
+L	seq36_1.0_B2_primary	+	seq36_1.0_B3_primary	+	0M
+L	seq36_1.0_B3_primary	+	seq36_1.0_B4_complex	+	0M
+L	seq36_1.0_B4_complex	+	seq36_1.0_B5_interrupted	+	0M
+L	seq36_1.0_B5_interrupted	+	seq36_1.0_B6_complex	+	0M
+S	seq37_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq37_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq37_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq37_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq37_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq37_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq37_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq37_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq37_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq37_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:16	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:11;GCG:1;GCT:3	VA:Z:-	ND:Z:42,44,46,47,48,49,51
+S	seq37_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq37_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq37_1.0_B1_complex	+	seq37_1.0_B2_primary	+	0M
+L	seq37_1.0_B2_primary	+	seq37_1.0_B3_primary	+	0M
+L	seq37_1.0_B3_primary	+	seq37_1.0_B4_complex	+	0M
+L	seq37_1.0_B4_complex	+	seq37_1.0_B5_interrupted	+	0M
+L	seq37_1.0_B5_interrupted	+	seq37_1.0_B6_complex	+	0M
+S	seq38_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq38_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq38_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq38_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq38_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq38_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:28	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:22	VA:Z:-	ND:Z:16,18,20,21,22,24,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq38_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq38_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq38_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq38_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq38_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq38_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq38_1.0_B1_complex	+	seq38_1.0_B2_primary	+	0M
+L	seq38_1.0_B2_primary	+	seq38_1.0_B3_primary	+	0M
+L	seq38_1.0_B3_primary	+	seq38_1.0_B4_complex	+	0M
+L	seq38_1.0_B4_complex	+	seq38_1.0_B5_interrupted	+	0M
+L	seq38_1.0_B5_interrupted	+	seq38_1.0_B6_complex	+	0M
+S	seq39_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq39_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq39_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq39_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq39_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq39_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:21	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:15	VA:Z:-	ND:Z:16,18,26,27,29,34,35,37,38,39,41,42
+S	seq39_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq39_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq39_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq39_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq39_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq39_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq39_1.0_B1_complex	+	seq39_1.0_B2_primary	+	0M
+L	seq39_1.0_B2_primary	+	seq39_1.0_B3_primary	+	0M
+L	seq39_1.0_B3_primary	+	seq39_1.0_B4_complex	+	0M
+L	seq39_1.0_B4_complex	+	seq39_1.0_B5_interrupted	+	0M
+L	seq39_1.0_B5_interrupted	+	seq39_1.0_B6_complex	+	0M
+S	seq40_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq40_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq40_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq40_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq40_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq40_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:25	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:19	VA:Z:-	ND:Z:16,18,21,22,24,25,26,27,29,34,35,37,38,39,41,42
+S	seq40_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq40_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq40_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq40_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq40_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq40_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq40_1.0_B1_complex	+	seq40_1.0_B2_primary	+	0M
+L	seq40_1.0_B2_primary	+	seq40_1.0_B3_primary	+	0M
+L	seq40_1.0_B3_primary	+	seq40_1.0_B4_complex	+	0M
+L	seq40_1.0_B4_complex	+	seq40_1.0_B5_interrupted	+	0M
+L	seq40_1.0_B5_interrupted	+	seq40_1.0_B6_complex	+	0M
+S	seq41_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq41_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq41_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq41_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq41_1.0_B3_primary	CAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq41_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:22	IV:i:0	SW:i:0	MT:Z:CAA:5;CAG:17	VA:Z:-	ND:Z:16,17,25,26,27,29,34,35,37,38,39,41,42
+S	seq41_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq41_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq41_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq41_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq41_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq41_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq41_1.0_B1_complex	+	seq41_1.0_B2_primary	+	0M
+L	seq41_1.0_B2_primary	+	seq41_1.0_B3_primary	+	0M
+L	seq41_1.0_B3_primary	+	seq41_1.0_B4_complex	+	0M
+L	seq41_1.0_B4_complex	+	seq41_1.0_B5_interrupted	+	0M
+L	seq41_1.0_B5_interrupted	+	seq41_1.0_B6_complex	+	0M
+S	seq42_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq42_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq42_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq42_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq42_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq42_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq42_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq42_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq42_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq42_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq42_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq42_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq42_1.0_B1_complex	+	seq42_1.0_B2_primary	+	0M
+L	seq42_1.0_B2_primary	+	seq42_1.0_B3_primary	+	0M
+L	seq42_1.0_B3_primary	+	seq42_1.0_B4_complex	+	0M
+L	seq42_1.0_B4_complex	+	seq42_1.0_B5_interrupted	+	0M
+L	seq42_1.0_B5_interrupted	+	seq42_1.0_B6_complex	+	0M
+S	seq43_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq43_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq43_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq43_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq43_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq43_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:24	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:18	VA:Z:-	ND:Z:16,18,25,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq43_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq43_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq43_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq43_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq43_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq43_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq43_1.0_B1_complex	+	seq43_1.0_B2_primary	+	0M
+L	seq43_1.0_B2_primary	+	seq43_1.0_B3_primary	+	0M
+L	seq43_1.0_B3_primary	+	seq43_1.0_B4_complex	+	0M
+L	seq43_1.0_B4_complex	+	seq43_1.0_B5_interrupted	+	0M
+L	seq43_1.0_B5_interrupted	+	seq43_1.0_B6_complex	+	0M
+S	seq44_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAG	PN:Z:seq44_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,12
+S	seq44_1.0_B2_primary	GCGGCGGCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq44_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:15	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:8	VA:Z:-	ND:Z:13,14,15,16
+S	seq44_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq44_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:22	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:16	VA:Z:-	ND:Z:16,18,25,26,27,29,34,35,37,38,39,41,42
+S	seq44_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq44_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq44_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq44_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq44_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq44_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq44_1.0_B1_complex	+	seq44_1.0_B2_primary	+	0M
+L	seq44_1.0_B2_primary	+	seq44_1.0_B3_primary	+	0M
+L	seq44_1.0_B3_primary	+	seq44_1.0_B4_complex	+	0M
+L	seq44_1.0_B4_complex	+	seq44_1.0_B5_interrupted	+	0M
+L	seq44_1.0_B5_interrupted	+	seq44_1.0_B6_complex	+	0M
+S	seq45_1.0_B1_complex	AAGACAGTGGCCCTGTCGGCTAAGGAA	PN:Z:seq45_1.0	BI:i:1	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:27	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:7,8,10,11
+S	seq45_1.0_B2_primary	GCGGCGGCGGCAGCAGCGGCGGCCGCCGCCGCCGCCGCG	PN:Z:seq45_1.0	BI:i:2	BT:Z:primary_repeat	GR:Z:GCC_like	UC:i:13	IV:i:0	SW:i:0	MT:Z:GCA:2;GCC:5;GCG:6	VA:Z:-	ND:Z:14,15,16
+S	seq45_1.0_B3_primary	CAACAGCAACAGCAACAGCAGCAGCAGCAGCAGCAACAGCAGCAGCAGCAGCAGCAGCAGCAACAACAG	PN:Z:seq45_1.0	BI:i:3	BT:Z:primary_repeat	GR:Z:CAG_like	UC:i:23	IV:i:0	SW:i:0	MT:Z:CAA:6;CAG:17	VA:Z:-	ND:Z:16,18,26,27,29,30,31,33,34,35,37,38,39,41,42
+S	seq45_1.0_B4_complex	CTCAACCACGTTGATGGTTCCAGCAAGCCTGCGGTGCTGGCGGCCCCGTCTGGCCTGGAGCGCTACGGCCTAAGC	PN:Z:seq45_1.0	BI:i:4	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:75	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:42
+S	seq45_1.0_B5_interrupted	GCTGCCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTGGAACAGCGCAGCCGCT	PN:Z:seq45_1.0	BI:i:5	BT:Z:locally_interrupted_repeat	GR:Z:GCC_like	UC:i:15	IV:i:10	SW:i:0	MT:Z:GCA:1;GCC:10;GCG:1;GCT:3	VA:Z:-	ND:Z:42,46,47,48,49,51
+S	seq45_1.0_B6_complex	TCGAGTACCCGCCAC	PN:Z:seq45_1.0	BI:i:6	BT:Z:complex_sequence	GR:Z:nonrepeat	UC:i:0	IV:i:15	SW:i:0	MT:Z:-	VA:Z:-	ND:Z:51
+L	seq45_1.0_B1_complex	+	seq45_1.0_B2_primary	+	0M
+L	seq45_1.0_B2_primary	+	seq45_1.0_B3_primary	+	0M
+L	seq45_1.0_B3_primary	+	seq45_1.0_B4_complex	+	0M
+L	seq45_1.0_B4_complex	+	seq45_1.0_B5_interrupted	+	0M
+L	seq45_1.0_B5_interrupted	+	seq45_1.0_B6_complex	+	0M
+P	seq1_1.0	seq1_1.0_B1_complex+,seq1_1.0_B2_primary+,seq1_1.0_B3_primary+,seq1_1.0_B4_complex+,seq1_1.0_B5_interrupted+,seq1_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:25:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq2_1.0	seq2_1.0_B1_complex+,seq2_1.0_B2_primary+,seq2_1.0_B3_primary+,seq2_1.0_B4_complex+,seq2_1.0_B5_interrupted+,seq2_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq1_65.5	seq1_65.5_B1_complex+,seq1_65.5_B2_primary+,seq1_65.5_B3_primary+,seq1_65.5_B4_complex+,seq1_65.5_B5_interrupted+,seq1_65.5_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq2_161.5	seq2_161.5_B1_complex+,seq2_161.5_B2_primary+,seq2_161.5_B3_primary+,seq2_161.5_B4_complex+,seq2_161.5_B5_interrupted+,seq2_161.5_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq3_107.0	seq3_107.0_B1_complex+,seq3_107.0_B2_primary+,seq3_107.0_B3_primary+,seq3_107.0_B4_complex+,seq3_107.0_B5_interrupted+,seq3_107.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq4_1.0	seq4_1.0_B1_complex+,seq4_1.0_B2_primary+,seq4_1.0_B3_primary+,seq4_1.0_B4_complex+,seq4_1.0_B5_interrupted+,seq4_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:14:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq5_1.0	seq5_1.0_B1_complex+,seq5_1.0_B2_primary+,seq5_1.0_B3_primary+,seq5_1.0_B4_complex+,seq5_1.0_B5_interrupted+,seq5_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq6_32.5	seq6_32.5_B1_complex+,seq6_32.5_B2_primary+,seq6_32.5_B3_primary+,seq6_32.5_B4_complex+,seq6_32.5_B5_interrupted+,seq6_32.5_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:25:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq7_0.5	seq7_0.5_B1_complex+,seq7_0.5_B2_primary+,seq7_0.5_B3_primary+,seq7_0.5_B4_complex+,seq7_0.5_B5_interrupted+,seq7_0.5_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq8_1.0	seq8_1.0_B1_complex+,seq8_1.0_B2_primary+,seq8_1.0_B3_primary+,seq8_1.0_B4_complex+,seq8_1.0_B5_interrupted+,seq8_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:32:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq9_1.0	seq9_1.0_B1_complex+,seq9_1.0_B2_primary+,seq9_1.0_B3_primary+,seq9_1.0_B4_complex+,seq9_1.0_B5_interrupted+,seq9_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:22:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq10_14.0	seq10_14.0_B1_complex+,seq10_14.0_B2_primary+,seq10_14.0_B3_primary+,seq10_14.0_B4_complex+,seq10_14.0_B5_interrupted+,seq10_14.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:14:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq11_3.0	seq11_3.0_B1_complex+,seq11_3.0_B2_primary+,seq11_3.0_B3_primary+,seq11_3.0_B4_complex+,seq11_3.0_B5_interrupted+,seq11_3.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:19:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq12_1.0	seq12_1.0_B1_complex+,seq12_1.0_B2_primary+,seq12_1.0_B3_primary+,seq12_1.0_B4_complex+,seq12_1.0_B5_interrupted+,seq12_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq13_1.0	seq13_1.0_B1_complex+,seq13_1.0_B2_primary+,seq13_1.0_B3_primary+,seq13_1.0_B4_complex+,seq13_1.0_B5_interrupted+,seq13_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:16:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq14_4.0	seq14_4.0_B1_complex+,seq14_4.0_B2_primary+,seq14_4.0_B3_primary+,seq14_4.0_B4_complex+,seq14_4.0_B5_interrupted+,seq14_4.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq15_1.0	seq15_1.0_B1_complex+,seq15_1.0_B2_primary+,seq15_1.0_B3_primary+,seq15_1.0_B4_complex+,seq15_1.0_B5_interrupted+,seq15_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq16_1.0	seq16_1.0_B1_complex+,seq16_1.0_B2_primary+,seq16_1.0_B3_primary+,seq16_1.0_B4_complex+,seq16_1.0_B5_interrupted+,seq16_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:28:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:17:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq17_3.0	seq17_3.0_B1_complex+,seq17_3.0_B2_primary+,seq17_3.0_B3_primary+,seq17_3.0_B4_complex+,seq17_3.0_B5_interrupted+,seq17_3.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:12:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq18_3.0	seq18_3.0_B1_complex+,seq18_3.0_B2_primary+,seq18_3.0_B3_primary+,seq18_3.0_B4_complex+,seq18_3.0_B5_interrupted+,seq18_3.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq19_13.0	seq19_13.0_B1_complex+,seq19_13.0_B2_primary+,seq19_13.0_B3_primary+,seq19_13.0_B4_complex+,seq19_13.0_B5_interrupted+,seq19_13.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:21:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq20_1.0	seq20_1.0_B1_complex+,seq20_1.0_B2_primary+,seq20_1.0_B3_primary+,seq20_1.0_B4_complex+,seq20_1.0_B5_interrupted+,seq20_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq21_1.0	seq21_1.0_B1_complex+,seq21_1.0_B2_primary+,seq21_1.0_B3_primary+,seq21_1.0_B4_complex+,seq21_1.0_B5_interrupted+,seq21_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:22:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq22_2.0	seq22_2.0_B1_complex+,seq22_2.0_B2_primary+,seq22_2.0_B3_primary+,seq22_2.0_B4_complex+,seq22_2.0_B5_interrupted+,seq22_2.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq23_12.0	seq23_12.0_B1_complex+,seq23_12.0_B2_primary+,seq23_12.0_B3_primary+,seq23_12.0_B4_complex+,seq23_12.0_B5_interrupted+,seq23_12.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq24_1.0	seq24_1.0_B1_complex+,seq24_1.0_B2_primary+,seq24_1.0_B3_primary+,seq24_1.0_B4_complex+,seq24_1.0_B5_interrupted+,seq24_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq25_2.0	seq25_2.0_B1_complex+,seq25_2.0_B2_primary+,seq25_2.0_B3_primary+,seq25_2.0_B4_complex+,seq25_2.0_B5_interrupted+,seq25_2.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq26_1.0	seq26_1.0_B1_complex+,seq26_1.0_B2_primary+,seq26_1.0_B3_primary+,seq26_1.0_B4_complex+,seq26_1.0_B5_interrupted+,seq26_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:26:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq27_3.0	seq27_3.0_B1_complex+,seq27_3.0_B2_primary+,seq27_3.0_B3_primary+,seq27_3.0_B4_complex+,seq27_3.0_B5_interrupted+,seq27_3.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq28_3.0	seq28_3.0_B1_complex+,seq28_3.0_B2_primary+,seq28_3.0_B3_primary+,seq28_3.0_B4_complex+,seq28_3.0_B5_interrupted+,seq28_3.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq29_1.0	seq29_1.0_B1_complex+,seq29_1.0_B2_primary+,seq29_1.0_B3_primary+,seq29_1.0_B4_complex+,seq29_1.0_B5_interrupted+,seq29_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:25:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq30_1.0	seq30_1.0_B1_complex+,seq30_1.0_B2_primary+,seq30_1.0_B3_primary+,seq30_1.0_B4_complex+,seq30_1.0_B5_interrupted+,seq30_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:25:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:14:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq31_1.0	seq31_1.0_B1_complex+,seq31_1.0_B2_primary+,seq31_1.0_B3_primary+,seq31_1.0_B4_complex+,seq31_1.0_B5_interrupted+,seq31_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:19:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq32_1.0	seq32_1.0_B1_complex+,seq32_1.0_B2_primary+,seq32_1.0_B3_primary+,seq32_1.0_B4_complex+,seq32_1.0_B5_interrupted+,seq32_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:11:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq33_2.0	seq33_2.0_B1_complex+,seq33_2.0_B2_primary+,seq33_2.0_B3_primary+,seq33_2.0_B4_complex+,seq33_2.0_B5_interrupted+,seq33_2.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:27:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq34_1.0	seq34_1.0_B1_complex+,seq34_1.0_B2_primary+,seq34_1.0_B3_primary+,seq34_1.0_B4_complex+,seq34_1.0_B5_interrupted+,seq34_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:25:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:16:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq35_1.0	seq35_1.0_B1_complex+,seq35_1.0_B2_primary+,seq35_1.0_B3_primary+,seq35_1.0_B4_complex+,seq35_1.0_B5_interrupted+,seq35_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:25:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq36_1.0	seq36_1.0_B1_complex+,seq36_1.0_B2_primary+,seq36_1.0_B3_primary+,seq36_1.0_B4_complex+,seq36_1.0_B5_interrupted+,seq36_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq37_1.0	seq37_1.0_B1_complex+,seq37_1.0_B2_primary+,seq37_1.0_B3_primary+,seq37_1.0_B4_complex+,seq37_1.0_B5_interrupted+,seq37_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:16:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq38_1.0	seq38_1.0_B1_complex+,seq38_1.0_B2_primary+,seq38_1.0_B3_primary+,seq38_1.0_B4_complex+,seq38_1.0_B5_interrupted+,seq38_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:28:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq39_1.0	seq39_1.0_B1_complex+,seq39_1.0_B2_primary+,seq39_1.0_B3_primary+,seq39_1.0_B4_complex+,seq39_1.0_B5_interrupted+,seq39_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:21:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq40_1.0	seq40_1.0_B1_complex+,seq40_1.0_B2_primary+,seq40_1.0_B3_primary+,seq40_1.0_B4_complex+,seq40_1.0_B5_interrupted+,seq40_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:25:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq41_1.0	seq41_1.0_B1_complex+,seq41_1.0_B2_primary+,seq41_1.0_B3_primary+,seq41_1.0_B4_complex+,seq41_1.0_B5_interrupted+,seq41_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:22:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq42_1.0	seq42_1.0_B1_complex+,seq42_1.0_B2_primary+,seq42_1.0_B3_primary+,seq42_1.0_B4_complex+,seq42_1.0_B5_interrupted+,seq42_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq43_1.0	seq43_1.0_B1_complex+,seq43_1.0_B2_primary+,seq43_1.0_B3_primary+,seq43_1.0_B4_complex+,seq43_1.0_B5_interrupted+,seq43_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:24:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq44_1.0	seq44_1.0_B1_complex+,seq44_1.0_B2_primary+,seq44_1.0_B3_primary+,seq44_1.0_B4_complex+,seq44_1.0_B5_interrupted+,seq44_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:15:primary_repeat|CAG_like:22:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
+P	seq45_1.0	seq45_1.0_B1_complex+,seq45_1.0_B2_primary+,seq45_1.0_B3_primary+,seq45_1.0_B4_complex+,seq45_1.0_B5_interrupted+,seq45_1.0_B6_complex+	0M,0M,0M,0M,0M	SG:Z:nonrepeat:0:complex_sequence|GCC_like:13:primary_repeat|CAG_like:23:primary_repeat|nonrepeat:0:complex_sequence|GCC_like:15:locally_interrupted_repeat|nonrepeat:0:complex_sequence
