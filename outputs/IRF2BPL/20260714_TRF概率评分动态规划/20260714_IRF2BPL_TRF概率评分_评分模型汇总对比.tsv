@@ -1,0 +1,9 @@
+metric	fixed_score	TRF_probability_score
+path_count	47	47
+block_count	6	6
+CAG_like_units	19-32	19-32
+GCC_like_units	28-36	29-36
+variant_units	12-15	13-15
+central_complex_bp	75-75	75-75
+L3_repeat_units	14-21	14-21
+changed_block_signature_paths	0	17
