@@ -1,0 +1,8 @@
+metric	value
+path_count	47
+path_loop_pairs	141
+node_count	18
+edge_count	29
+self_loop_edge_count	6
+self_loop_instances	L1,L2,L3
+exact_gfa_reconstruction_paths	47
