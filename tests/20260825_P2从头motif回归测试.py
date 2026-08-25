@@ -111,7 +111,6 @@ class P2IRF2BPLEndToEndTest(unittest.TestCase):
                 cwd=ROOT,
                 check=True,
                 capture_output=True,
-                text=True,
             )
 
             qa = {row["metric"]: row["value"] for row in read_tsv(outdir / f"{prefix}_P2验证汇总.tsv")}

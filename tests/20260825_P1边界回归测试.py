@@ -40,7 +40,6 @@ class P1BoundaryRegressionTest(unittest.TestCase):
                 cwd=ROOT,
                 check=True,
                 capture_output=True,
-                text=True,
             )
 
             qa = {row["metric"]: row["value"] for row in read_tsv(outdir / f"{prefix}_P1验证汇总.tsv")}

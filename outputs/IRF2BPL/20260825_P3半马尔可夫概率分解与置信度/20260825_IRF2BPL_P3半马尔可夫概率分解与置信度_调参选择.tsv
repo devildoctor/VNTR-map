@@ -1,0 +1,6 @@
+duration_weight	tune_path_count	block_count_absolute_error	family_sequence_error	mean_boundary_absolute_error_bp	selection_objective	selected
+0.5	9	0	0	0.0000	0.0000	0
+1.0	9	0	0	0.0000	0.0000	1
+1.5	9	0	0	0.0000	0.0000	0
+2.0	9	0	0	0.0000	0.0000	0
+3.0	9	0	0	0.0000	0.0000	0
