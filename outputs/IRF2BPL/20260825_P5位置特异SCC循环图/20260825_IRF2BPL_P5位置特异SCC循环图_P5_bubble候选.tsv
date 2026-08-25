@@ -1,0 +1,2 @@
+source_scc	sink_scc	branch_count	branch_sccs	max_branch_distance	method
+SCC0008	SCC0012	3	SCC0009,SCC0010,SCC0011	1	condensation_DAG_branch_reconvergence

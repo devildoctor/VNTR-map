@@ -1,0 +1,17 @@
+metric	value
+path_count	47
+assembly_event_count	755
+motif_substitution_event_count	708
+motif_indel_event_count	0
+local_insertion_event_count	47
+foreign_family_interruption_event_count	0
+read_evidence_row_count	0
+unknown_read_evidence_event_count	0
+read_backed_high_confidence_event_count	0
+uncertain_event_count	0
+error_like_event_count	0
+assembly_only_unvalidated_event_count	755
+gfa_node_count	34
+gfa_edge_count	47
+exact_gfa_reconstruction_paths	47
+interpretation_status	assembly_only_unvalidated
