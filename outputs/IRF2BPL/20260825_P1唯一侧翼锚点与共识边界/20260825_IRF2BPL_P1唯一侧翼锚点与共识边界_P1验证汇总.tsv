@@ -1,0 +1,12 @@
+metric	value
+path_count	47
+unique_left_anchor_paths	47
+unique_right_anchor_paths	47
+ordered_anchor_paths	47
+internally_supported_boundary_paths	47
+external_confirmed_boundary_paths	0
+within_one_motif_boundary_paths	47
+complex_mosaic_TR_paths	47
+exact_locus_reconstruction_paths	47
+gfa_node_count	18
+gfa_edge_count	29
