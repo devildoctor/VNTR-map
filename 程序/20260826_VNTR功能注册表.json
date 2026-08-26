@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "stages": [
+    {
+      "id": "P1",
+      "name": "唯一侧翼锚点与共识边界",
+      "description": "从输入 GFA 重建路径，确定唯一侧翼锚点、VNTR 共识边界和结构术语。",
+      "depends_on": [],
+      "command": [
+        "${python}",
+        "-u",
+        "${repo}/程序/20260825_P1唯一侧翼锚点与共识边界.py"
+      ],
+      "arguments": [
+        {"flag": "--input", "value": "${input}"},
+        {"flag": "--outdir", "value": "${stage_dir}"},
+        {"flag": "--prefix", "value": "${stage_prefix}"},
+        {"flag": "--external-evidence", "value": "${external_evidence}", "optional": true}
+      ],
+      "outputs": {
+        "anchors": "${stage_dir}/${stage_prefix}_唯一侧翼锚点.tsv",
+        "boundaries": "${stage_dir}/${stage_prefix}_路径边界共识.tsv",
+        "external_evidence_template": "${stage_dir}/${stage_prefix}_外部边界证据模板.tsv",
+        "gfa": "${stage_dir}/${stage_prefix}_P1边界标注多环图.gfa",
+        "validation": "${stage_dir}/${stage_prefix}_P1验证汇总.tsv",
+        "visualization": "${stage_dir}/${stage_prefix}_边界共识总览.png"
+      },
+      "required_outputs": ["boundaries", "gfa", "validation"]
+    },
+    {
+      "id": "P2",
+      "name": "从头发现主体 motif 与 MDL 分解",
+      "description": "发现 primitive motif 字典，并把路径拆分为位置特异 repeat block。",
+      "depends_on": ["P1"],
+      "command": [
+        "${python}",
+        "-u",
+        "${repo}/程序/20260825_P2从头发现主体motif与MDL分解.py"
+      ],
+      "arguments": [
+        {"flag": "--input", "value": "${input}"},
+        {"flag": "--p1-boundaries", "value": "${artifact.P1.boundaries}"},
+        {"flag": "--outdir", "value": "${stage_dir}"},
+        {"flag": "--prefix", "value": "${stage_prefix}"}
+      ],
+      "outputs": {
+        "dictionary": "${stage_dir}/${stage_prefix}_共享motif字典.tsv",
+        "tokens": "${stage_dir}/${stage_prefix}_逐路径motif_token.tsv",
+        "blocks": "${stage_dir}/${stage_prefix}_逐路径repeat区块.tsv",
+        "gfa": "${stage_dir}/${stage_prefix}_P2_de_novo_motif图.gfa",
+        "validation": "${stage_dir}/${stage_prefix}_P2验证汇总.tsv",
+        "visualization": "${stage_dir}/${stage_prefix}_P2_motif与区块总览.png"
+      },
+      "required_outputs": ["dictionary", "tokens", "blocks", "gfa", "validation"]
+    },
+    {
+      "id": "P3",
+      "name": "半马尔可夫概率分解与置信度",
+      "description": "学习 motif 发射、转移和持续长度，输出 posterior、边界区间和概率图。",
+      "depends_on": ["P1", "P2"],
+      "command": [
+        "${python}",
+        "-u",
+        "${repo}/程序/20260825_P3半马尔可夫概率分解与置信度.py"
+      ],
+      "arguments": [
+        {"flag": "--input", "value": "${input}"},
+        {"flag": "--p1-boundaries", "value": "${artifact.P1.boundaries}"},
+        {"flag": "--p2-dictionary", "value": "${artifact.P2.dictionary}"},
+        {"flag": "--p2-tokens", "value": "${artifact.P2.tokens}"},
+        {"flag": "--p2-blocks", "value": "${artifact.P2.blocks}"},
+        {"flag": "--outdir", "value": "${stage_dir}"},
+        {"flag": "--prefix", "value": "${stage_prefix}"}
+      ],
+      "outputs": {
+        "parameters": "${stage_dir}/${stage_prefix}_学习参数.tsv",
+        "tokens": "${stage_dir}/${stage_prefix}_逐路径token后验.tsv",
+        "blocks": "${stage_dir}/${stage_prefix}_逐路径P3_repeat区块.tsv",
+        "gfa": "${stage_dir}/${stage_prefix}_P3半马尔可夫多环图.gfa",
+        "validation": "${stage_dir}/${stage_prefix}_P3验证汇总.tsv",
+        "visualization": "${stage_dir}/${stage_prefix}_P3概率区块总览.png"
+      },
+      "required_outputs": ["tokens", "blocks", "gfa", "validation"]
+    },
+    {
+      "id": "P4",
+      "name": "变异事件与 read 证据分级",
+      "description": "从 P3 分解提取事件，并用可选逐 read 证据划分高置信、可疑和未验证状态。",
+      "depends_on": ["P3"],
+      "command": [
+        "${python}",
+        "-u",
+        "${repo}/程序/20260825_P4变异read证据分级.py"
+      ],
+      "arguments": [
+        {"flag": "--p3-gfa", "value": "${artifact.P3.gfa}"},
+        {"flag": "--p3-tokens", "value": "${artifact.P3.tokens}"},
+        {"flag": "--p3-blocks", "value": "${artifact.P3.blocks}"},
+        {"flag": "--read-evidence", "value": "${read_evidence}", "optional": true},
+        {"flag": "--outdir", "value": "${stage_dir}"},
+        {"flag": "--prefix", "value": "${stage_prefix}"}
+      ],
+      "outputs": {
+        "events": "${stage_dir}/${stage_prefix}_P4组装事件与read判定.tsv",
+        "read_evidence_template": "${stage_dir}/${stage_prefix}_P4_read证据模板.tsv",
+        "gfa": "${stage_dir}/${stage_prefix}_P4变异证据标注图.gfa",
+        "validation": "${stage_dir}/${stage_prefix}_P4验证汇总.tsv",
+        "visualization": "${stage_dir}/${stage_prefix}_P4事件证据总览.png"
+      },
+      "required_outputs": ["events", "gfa", "validation"]
+    },
+    {
+      "id": "P5",
+      "name": "位置特异 SCC 循环图",
+      "description": "从真实路径邻接构建图，识别位置特异 SCC、压缩 DAG 和逐路径循环次数。",
+      "depends_on": ["P3", "P4"],
+      "command": [
+        "${python}",
+        "-u",
+        "${repo}/程序/20260825_P5位置特异SCC循环图.py"
+      ],
+      "arguments": [
+        {"flag": "--input-gfa", "value": "${artifact.P4.gfa}"},
+        {"flag": "--p3-blocks", "value": "${artifact.P3.blocks}"},
+        {"flag": "--outdir", "value": "${stage_dir}"},
+        {"flag": "--prefix", "value": "${stage_prefix}"}
+      ],
+      "outputs": {
+        "scc_catalog": "${stage_dir}/${stage_prefix}_P5_SCC目录.tsv",
+        "dag": "${stage_dir}/${stage_prefix}_P5_压缩DAG.tsv",
+        "path_loops": "${stage_dir}/${stage_prefix}_P5_逐路径环遍历.tsv",
+        "gfa": "${stage_dir}/${stage_prefix}_P5位置特异SCC循环图.gfa",
+        "validation": "${stage_dir}/${stage_prefix}_P5验证汇总.tsv",
+        "visualization": "${stage_dir}/${stage_prefix}_P5_SCC与路径次数总览.png"
+      },
+      "required_outputs": ["scc_catalog", "dag", "path_loops", "gfa", "validation"]
+    }
+  ]
+}
